@@ -1,7 +1,6 @@
 # xtevedocker for Linux Ubuntu
-
-# To Build this Volume, Download Repo Zip, and run:
 https://github.com/MCTyler/xtevedocker/archive/master.zip
+# To Build this Volume, Download Repo Zip, and run:
 
 `docker build /path/to/extracted/repo`
 
