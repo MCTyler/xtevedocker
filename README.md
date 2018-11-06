@@ -6,4 +6,4 @@
 
 # This Docker Container can bun run with the following command:
 
-`docker run -it --network host --restart always --name xtevedock -v ~/xteve/tmp:/tmp/xtevedock/ -v ~/xtevedock/files:/root/xteve/`
+`docker run -it --network host --restart always --name xtevedock -v ~/xtevedock/tmp:/tmp/xteve/ -v ~/xtevedock/files:/root/xteve/`
