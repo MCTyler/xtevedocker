@@ -1,5 +1,7 @@
-# xtevedocker for Linux Ubuntu
+# xtevedocker for Linux Ubuntu (Editable Version)
 https://github.com/MCTyler/xtevedocker/archive/master.zip
+# If you would like your own version of XTeVe, just replace the Binary with your own.
+# Edit the Run Script to Suit your Needs for Port.
 # To Build this Volume, Download Repo Zip, and run:
 
 `docker build /path/to/extracted/repo`
