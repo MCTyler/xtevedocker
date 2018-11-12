@@ -27,5 +27,7 @@ Used to seperate m3u into the groups it contains
     ./zap2xml.pl -I -O -u *********@gmail.com -p ******** -U UTF-8 -o xmltv.xml
 
 # https://tvlistings.zap2it.com/
+    Find local TV listings for your local broadcast, cable and satellite providers and watch full episodes of your favorite TV shows online.
 
 # http://www.xmltv.co.uk/feeds
+    XMLTV publish for the UK, TV listings to supply DVB headends, media centers and PVR's
