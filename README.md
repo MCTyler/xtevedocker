@@ -25,4 +25,5 @@ Used to seperate m3u into the groups it contains
 # Guide Info Help
     Just log into zap2it, configure your guide, and use this script to download guide info....../zap2xml.pl -I -O -u *********@gmail.com -p ******** -U UTF-8 -o xmltv.xml
 https://tvlistings.zap2it.com/
+
 http://www.xmltv.co.uk/feeds
