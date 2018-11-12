@@ -26,7 +26,7 @@ Used to seperate m3u into the groups it contains
     Just log into zap2it, configure your guide, and use this script to download guide info.....
     ./zap2xml.pl -I -O -u *********@gmail.com -p ******** -U UTF-8 -o xmltv.xml
     
-![alt text]https://github.com/MCTyler/xtevedocker/blob/master/logo.png    
+![alt text](https://github.com/MCTyler/xtevedocker/blob/master/logo.png)    
 
 # https://tvlistings.zap2it.com/
     Find local TV listings for your local broadcast, cable and satellite providers and watch full episodes of your favorite TV shows online.
