@@ -36,7 +36,7 @@ Used to seperate m3u into the groups it contains
 # http://www.xmltv.co.uk/feeds
     XMLTV publish for the UK, TV listings to supply DVB headends, media centers and PVR's
 
-![alt text] (https://github.com/MCTyler/xtevedocker/blob/master/koditv.png)
+![alt text](https://github.com/MCTyler/xtevedocker/blob/master/koditv.png)
 
 # https://koditvepg.com/epgs/
     We are focused on delivering high-class quality, accurate and comprehensive metadata and EPG services to many platforms worldwide
