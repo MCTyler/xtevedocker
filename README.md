@@ -15,7 +15,7 @@ https://xteve.de/
 # M3U Grab Script
 Used to seperate m3u into the groups it contains
 
-    ``` bash
+    ```bash
     #!/bin/sh
     #M3U Grab
     cd ~/xteve
