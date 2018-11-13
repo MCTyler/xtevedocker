@@ -15,7 +15,7 @@ https://xteve.de/
 # M3U Grab Script
 Used to seperate m3u into the groups it contains
 
-    ```bash
+    ``` bash
     #!/bin/sh
     #M3U Grab
     cd ~/xteve
@@ -25,7 +25,7 @@ Used to seperate m3u into the groups it contains
     <iptv_download.m3u grep --no-group-separator -A1 'group-title="'"$i"\" >"$i.m3u"
     sed -i '1i #EXTM3U' "$i.m3u"
     done
-    ````
+    ```
 # Guide Info Help
     Just log into zap2it, configure your guide, and use this script to download guide info.....
     ./zap2xml.pl -I -O -u *********@gmail.com -p ******** -U UTF-8 -o xmltv.xml
