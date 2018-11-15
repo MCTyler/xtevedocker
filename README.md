@@ -31,6 +31,9 @@ Used to seperate m3u into the groups it contains
 ```bash
     ./zap2xml.pl -I -O -u *********@gmail.com -p ******** -U UTF-8 -o xmltv.xml
 ```
+```bat
+C:\Windows\System32\cmd.exe /c "C:\Users\Steve.steve-PC\Documents\TVGuide\zap2xml.exe -I -O -u ***********@gmail.com -p ********** -U UTF-8 -o xmltv.xml"
+```
 ![alt text](https://github.com/MCTyler/xtevedocker/blob/master/logo.png)    
 
 # https://tvlistings.zap2it.com/
