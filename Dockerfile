@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER Hugo Blom hugo.blom1@gmail.com
+MAINTAINER EODCrafter
 
 #update and install packages
 RUN \
