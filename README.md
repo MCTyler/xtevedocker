@@ -10,8 +10,8 @@ https://xteve.de/
 
 # This Docker Container can bun run with the following command:
 ```bash
-docker run -it -p 8097:8097 --restart always --name xtevedock -v ~/xtevedock/tmp:/tmp/xteve/ -v
-~/xtevedock/files:/root/xteve/ -v ~/xtevedock/data:/root/xteve/data/ 
+docker run -it -p 8097:8097 --restart always --name xtevedock -v ~/xtevedock/files:/root/xteve/ 
+-v ~/xtevedock/data:/root/xteve/data/ 
 `eodcrafter/xteve or 1st 4 #'s of Build you just made`
 ```
 # M3U Grab Script
