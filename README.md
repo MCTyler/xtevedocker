@@ -26,6 +26,19 @@ Used to seperate m3u into the groups it contains
     sed -i '1i #EXTM3U' "$i.m3u"
     done
 ```
+
+# Add Channel Number Script
+
+```bash
+#!/bin/sh
+: > emby_iptv.m3u
+wget "http://********/get.php?username=**********@gmail.com&password=***********&type=m3u_plus&output=hls" -O iptv_download.m3u
+while read -r LINE || [ -n "$LINE" ]; do
+	awk '/#EXTINF:-1/ {gsub(/EXTINF:-1/, "& tvg-chno=\"" ++channel "\"")} 1' >> emby_iptv_tmp.m3u
+done < iptv_download.m3u
+mv emby_iptv_tmp.m3u emby_iptv.m3u
+rm iptv_download.m3u
+```
 # Guide Info Help
     Just log into zap2it, configure your guide, and use this script to download guide info.....
 ```bash
