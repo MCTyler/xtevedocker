@@ -1,7 +1,7 @@
 ![alt text](https://github.com/MCTyler/xtevedocker/blob/master/xteve.png)    
 # xtevedocker for Linux Ubuntu/Windows Docker (Linux Containers) (Editable Version) 1.3.X
 https://github.com/MCTyler/xtevedocker/archive/master.zip
-# If you would like your own version of xTeVe, just replace the Binary with your own.
+# If you would like your own version of xTeVe, just replace the Binary with your own. Be sure it's Linux Version!
 https://xteve.de/
 # Edit the Run Script to Suit your Needs for Port.
 # To Build this Volume, Download Repo Zip, and run:
