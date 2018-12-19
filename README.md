@@ -12,7 +12,7 @@ https://xteve.de/
 ```bash
 docker run -it -p 8097:8097 --restart always --name xtevedock -v ~/xtevedock/files:/root/xteve/ 
 -v ~/xtevedock/data:/root/xteve/data/ *********
-`eodcrafter/xteve or 1st 4 #'s of Build you just made`
+******** `eodcrafter/xteve or 1st 4 #'s of Build you just made`
 ```
 # M3U Grab Script
 Used to seperate m3u into the groups it contains
