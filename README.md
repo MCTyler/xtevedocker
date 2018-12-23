@@ -15,6 +15,7 @@ docker run -it -p 8097:8097 --restart always --name xtevedock -v ~/xtevedock/fil
 ******** `eodcrafter/xteve or 1st 4 #'s of Build you just made`
 ```
 # Extra Info that may be Useful....
+Local Path will now be `/root/xteve/data/` or `/root/xteve/` as specified in the Docker Run Command.
 This section contains optional procedures for configuring Linux hosts to work better with Docker.
 
 Manage Docker as a non-root user
