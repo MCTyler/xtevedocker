@@ -34,7 +34,7 @@ Create the docker group.
 Add your user to the docker group.
 
 `$ sudo usermod -aG docker $USER`
-Log out and log back in so that your group membership is re-evaluated.
+Completely REBOOT System!!!! Logging out and Back on is not sufficient.
 
 If testing on a virtual machine, it may be necessary to restart the virtual machine for changes to take effect.
 
