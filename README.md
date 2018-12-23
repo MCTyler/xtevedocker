@@ -30,10 +30,10 @@ To create the docker group and add your user:
 
 Create the docker group.
 
-$ sudo groupadd docker
+`$ sudo groupadd docker`
 Add your user to the docker group.
 
-$ sudo usermod -aG docker $USER
+`$ sudo usermod -aG docker $USER`
 Log out and log back in so that your group membership is re-evaluated.
 
 If testing on a virtual machine, it may be necessary to restart the virtual machine for changes to take effect.
@@ -42,7 +42,7 @@ On a desktop Linux environment such as X Windows, log out of your session comple
 
 Verify that you can run docker commands without sudo.
 
-$ docker run hello-world
+`$ docker run hello-world`
 This command downloads a test image and runs it in a container. When the container runs, it prints an informational message and exits.
 
 If you initially ran Docker CLI commands using sudo before adding your user to the docker group, you may see the following error, which indicates that your ~/.docker/ directory was created with incorrect permissions due to the sudo commands.
@@ -51,24 +51,24 @@ WARNING: Error loading config file: /home/user/.docker/config.json -
 stat /home/user/.docker/config.json: permission denied
 To fix this problem, either remove the ~/.docker/ directory (it is recreated automatically, but any custom settings are lost), or change its ownership and permissions using the following commands:
 
-$ sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
-$ sudo chmod g+rwx "$HOME/.docker" -R
+`$ sudo chown "$USER":"$USER" /home/"$USER"/.docker -R`
+`$ sudo chmod g+rwx "$HOME/.docker" -R`
 Configure Docker to start on boot
 Most current Linux distributions (RHEL, CentOS, Fedora, Ubuntu 16.04 and higher) use systemd to manage which services start when the system boots. Ubuntu 14.10 and below use upstart.
 
 systemd
-$ sudo systemctl enable docker
+`$ sudo systemctl enable docker`
 To disable this behavior, use disable instead.
 
-$ sudo systemctl disable docker
+`$ sudo systemctl disable docker`
 If you need to add an HTTP Proxy, set a different directory or partition for the Docker runtime files, or make other customizations, see customize your systemd Docker daemon options.
 
 upstart
 Docker is automatically configured to start on boot using upstart. To disable this behavior, use the following command:
 
-$ echo manual | sudo tee /etc/init/docker.override
+`$ echo manual | sudo tee /etc/init/docker.override`
 chkconfig
-$ sudo chkconfig docker on
+`$ sudo chkconfig docker on`
 
 # M3U Grab Script
 Used to seperate m3u into the groups it contains
