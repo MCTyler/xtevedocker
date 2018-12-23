@@ -16,6 +16,7 @@ docker run -it -p 8097:8097 --restart always --name xtevedock -v ~/xtevedock/fil
 ```
 # Extra Info that may be Useful....
 Local Path will now be `/root/xteve/data/` or `/root/xteve/` as specified in the Docker Run Command.
+Actual Path is `~/xtevedock/data` or `~/xtevedock/files` respectfully.
 
 This section contains optional procedures for configuring Linux hosts to work better with Docker.
 
