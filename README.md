@@ -10,8 +10,7 @@ https://xteve.de/
 
 # This Docker Container can bun run with the following command:
 ```bash
-docker run -it -p 8097:8097 --restart always --name xtevedock -v ~/xtevedock/files:/root/xteve/ 
--v ~/xtevedock/data:/root/xteve/data/ *********
+docker run -it --network host --restart always --name xtevedock -v ~/xtevedock/tmp:/tmp/xteve/ -v ~/xtevedock/files:/root/xteve/ *********
 ******** `eodcrafter/xteve or 1st 4 #'s of Build you just made`
 ```
 # Extra Info that may be Useful....
