@@ -89,7 +89,7 @@ Used to seperate m3u into the groups it contains
     #!/bin/sh
     #M3U Grab
     cd ~/xtevedock/files/
-    wget "http://go.great.IPTV/get.php?username=***********@gmail.com&password=**********&type=m3u_plus&output=hls" -O iptv_download.m3u
+    wget "http://go.great.IPTV/get.php?username=***********@gmail.com&password=**********&type=m3u_plus&output=mpegts" -O iptv_download.m3u
     for i in "Sports" "News" "Movies" "General Streams" "Documentaries" "Kids" "Regional Locals" "Mini Series" "Music" "NCAAF" "NETFLIX  (series)" "NFL" "RADIO" "VOD - Action" "VOD - Animation" "VOD -  BOX SET" "VOD - Comedy" "VOD - Drama + Crime" "VOD - Family" "VOD - Horror" "VOD - KIDS TV" "VOD - Fantasy - SciFi" "Star Trek TNG (series)" "VOD - Superheroes" "VOD - Western"
     do
     <iptv_download.m3u grep --no-group-separator -A1 'group-title="'"$i"\" >"$i.m3u"
@@ -102,7 +102,7 @@ Used to seperate m3u into the groups it contains
 ```bash
 #!/bin/sh
 : > emby_iptv.m3u
-wget "http://********/get.php?username=**********@gmail.com&password=***********&type=m3u_plus&output=hls" -O iptv_download.m3u
+wget "http://********/get.php?username=**********@gmail.com&password=***********&type=m3u_plus&output=mpegts" -O iptv_download.m3u
 while read -r LINE || [ -n "$LINE" ]; do
 	awk '/#EXTINF:-1/ {gsub(/EXTINF:-1/, "& tvg-chno=\"" ++channel "\"")} 1' >> emby_iptv_tmp.m3u
 done < iptv_download.m3u
