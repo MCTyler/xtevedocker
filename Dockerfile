@@ -1,4 +1,4 @@
-FROM eodcrafter:xteve
+FROM alpine:latest
 MAINTAINER EODCrafter
 
 # Add xteve binary
