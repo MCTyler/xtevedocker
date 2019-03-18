@@ -1,9 +1,6 @@
 FROM eodcrafter:latest
 MAINTAINER EODCrafter
 
-# Dependencies
-RUN apk add ca-certificates
-
 # Add xteve binary
 ADD https://xteve.de:9443/download/?os=linux&arch=amd64&name=xteve&beta=false /xteve/xteve
 
