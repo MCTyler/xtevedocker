@@ -2,7 +2,7 @@ FROM alpine:latest
 MAINTAINER EODCrafter
 
 # Add xteve binary
-ADD https://xteve.de:9443/download/?os=linux&arch=amd64&name=xteve&beta=false /xteve/xteve
+ADD https://xteve.de:9443/download/?os=linux&arch=amd64&name=xteve&beta=true /xteve/xteve
 
 # Set executable permissions
 RUN chmod +x /xteve/xteve
