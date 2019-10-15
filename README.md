@@ -125,3 +125,5 @@ C:\Windows\System32\cmd.exe /c "C:\Users\Steve.steve-PC\Documents\TVGuide\zap2xm
 
 # http://www.xmltv.co.uk/feeds
     XMLTV publish for the UK, TV listings to supply DVB headends, media centers and PVR's
+    
+# http://kodiforumepg.ddns.net/epg/tvguide.xml    
