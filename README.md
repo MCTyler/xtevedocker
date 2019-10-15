@@ -115,8 +115,11 @@ rm iptv_download.m3u
 ```bash
     ./zap2xml.pl -I -O -u *********@gmail.com -p ******** -U UTF-8 -o xmltv.xml
 ```
+# 3 Different Logins, 3 different Guides!
 ```bat
-C:\Windows\System32\cmd.exe /c "C:\Users\Steve.steve-PC\Documents\TVGuide\zap2xml.exe -I -O -u ***********@gmail.com -p ********** -U UTF-8 -o xmltv.xml"
+C:\Windows\System32\cmd.exe /c C:\Users\eodst\Documents\zap2xml.exe -L -A -I -d 14 -c Zap -o Zap.xml -u XXXX1@gmail.com -p PASSWORD -U UTF-8
+C:\Windows\System32\cmd.exe /c C:\Users\eodst\Documents\zap2xml.exe -L -A -I -d 14 -c Canada -o Canada.xml -u XXXX2@myacot.com -p PASSWORD -U UTF-8
+C:\Windows\System32\cmd.exe /c C:\Users\eodst\Documents\zap2xml.exe -L -A -I -d 14 -c DirectTV -o DirectTV.xml -u XXXX3@hotmail.com -p PASSWORD -U UTF-8
 ```
 ![alt text](https://github.com/MCTyler/xtevedocker/blob/master/logo.png)    
 
