@@ -113,7 +113,7 @@ rm iptv_download.m3u
 # Guide Info Help
     Just log into zap2it, configure your guide, and use this script to download guide info.....
 ```bash
-    ./zap2xml.pl -I -O -u *********@gmail.com -p ******** -U UTF-8 -o xmltv.xml
+    ./zap2xml.pl -L -A -I -d 14 -c DirectTV -o DirectTV.xml -u *********@gmail.com -p ******** -U
 ```
 # 3 Different Logins, 3 different Guides!
 ```bat
